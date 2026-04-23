@@ -1,0 +1,38 @@
+export const projects = [
+	{
+		title: 'Portfolio',
+		description: `A modern portfolio website inspired by Dennis Snellenberg, featuring smooth animations and a clean, minimal UI.`,
+		description2: `Tech Stack: Next.js, Sass, JavaScript, Framer Motion, and GSAP for advanced animations.`,
+		description3: `Designed to be fully responsive, ensuring a seamless experience across devices, with minor variations depending on screen size and environment.`,
+		src: 'portfolio_new.png',
+		link: 'https://github.com/rishilahoti/portfolio_new',
+		color: '#d3d3ff',
+	},
+	{
+		title: 'Spotify Data Analysis',
+		description: `Analyzed a Spotify dataset containing tracks, albums, and artists to extract meaningful insights using SQL.`,
+		description2: `Performed data normalization on a denormalized dataset and executed queries ranging from basic to advanced complexity.`,
+		description3: `Focused on query optimization and data analysis to improve performance and generate valuable insights.`,
+		src: 'Spotify_Data.png',
+		link: 'https://github.com/manishkambleofficial/SQLpro3_SpotifyDataAnalysis',
+		color: '#b8e3e9',
+	},
+	{
+		title: 'HMX Digital',
+		description: `Designed and developed a user-friendly website for a digital marketing agency, focusing on clean design and smooth user experience.`,
+		description2: `Showcased services, brand identity, and key information to improve online presence and client engagement.`,
+		description3: `Built with responsiveness in mind to ensure consistent performance across different devices.`,
+		src: 'HMXDigital.png',
+		link: 'https://hmxdigital.com/',
+		color: '#ffe3e1',
+	},
+	{
+		title: 'NFT Marketplace',
+		description: `Designed and developed a user-friendly NFT marketplace with a visually appealing interface, focusing on smooth interactions and engaging user experience.`,
+		description2: `Built key features for browsing, showcasing, and interacting with digital assets.`,
+		description3: `Optimized for responsiveness to ensure consistent performance across devices.`,
+		src: 'nft-marketplace.png',
+		link: 'https://nftmk.netlify.app/',
+		color: '#bdddfc',
+	},
+];

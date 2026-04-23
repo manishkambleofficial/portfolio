@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font is now loaded via next/font/google in layout.js */
+body{
+    font-family: Lexend, sans-serif;
+    margin: 0px;
+    overflow: hidden; 
+    cursor: wait;
+    background-color: #ffffff;
+    @media screen and (max-width: 768px){
+        overflow: visible;
+    }
+}

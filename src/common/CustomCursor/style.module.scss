@@ -1,0 +1,32 @@
+///----------working Code-----------
+.cursor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+
+  pointer-events: none;
+  z-index: 9999;
+
+  mix-blend-mode: difference;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 6px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+
+  transition: background 0.3s ease;
+}
+
+.text {
+  pointer-events: none;
+}
