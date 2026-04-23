@@ -35,7 +35,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en" className={lexend.variable}>
+		<html lang="en" className={lexend.className}>
 			<head>
 				<meta
 					name="google-site-verification"
